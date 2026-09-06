@@ -1,0 +1,31 @@
+HTML tags (10+ besides html, head, body, title):
+1. meta
+2. link
+3. script
+4. nav
+5. div
+6. a
+7. button
+8. span
+9. ul
+10. li
+11. main
+12. h1
+13. p
+14. label
+15. input
+16. ol
+
+CSS properties (5+):
+1. background-color
+2. color
+3. font-weight
+4. margin-bottom
+5. letter-spacing
+6. max-width
+7. line-height
+8. font-size
+
+JavaScript: On hello.html, a button reads the name field and writes a greeting (or asks for a name if the field is empty).
+
+Bootstrap: A responsive navbar on every page, plus Bootstrap classes on the Hello form (form-control, btn, btn-primary).

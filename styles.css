@@ -1,0 +1,22 @@
+body {
+    background-color: #f7f4ef;
+    color: #1f2933;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    letter-spacing: 0.02em;
+}
+
+main p {
+    max-width: 40rem;
+    line-height: 1.65;
+}
+
+#main-nav {
+    font-size: 1rem;
+}
