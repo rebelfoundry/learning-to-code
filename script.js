@@ -1,16 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const nameInput = document.querySelector("#name");
-    const greetButton = document.querySelector("#greet");
-    const greeting = document.querySelector("#greeting");
+const nameInput = document.querySelector("#name");
+const greetForm = document.querySelector("#greet-form");
+const greeting = document.querySelector("#greeting");
 
-    greetButton.addEventListener("click", function () {
-        const name = nameInput.value.trim();
+greetForm.addEventListener("submit", function (event) {
+    event.preventDefault();
 
-        if (name === "") {
-            greeting.textContent = "Please type your name first.";
-            return;
-        }
+    const name = nameInput.value.trim();
 
-        greeting.textContent = "Hello, " + name + "!";
-    });
+    if (name === "") {
+        greeting.textContent = "Please type your name first.";
+        return;
+    }
+
+    greeting.textContent = "Hello, " + name + "!";
 });

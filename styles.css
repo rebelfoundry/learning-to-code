@@ -17,6 +17,8 @@ main p {
     line-height: 1.65;
 }
 
-#main-nav {
-    font-size: 1rem;
+label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
 }
